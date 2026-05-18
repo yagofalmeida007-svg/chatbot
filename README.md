@@ -1,4 +1,8 @@
 # 🤖 Eve AI Chatbot — LangChain + Groq + Llama 3.3
+O que o seu Chatbot Eve faz?
+
+Seu chatbot Eve é um assistente virtual em terminal desenvolvido em Python que utiliza Inteligência Artificial através da API da Groq integrada com o framework LangChain.
+Ele permite que o usuário converse com um modelo de IA de forma interativa diretamente pelo terminal ou pelo Google Colab.
 
 # 📌 Sobre o Projeto
 
