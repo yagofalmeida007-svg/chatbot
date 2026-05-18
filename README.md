@@ -63,19 +63,22 @@ Essas bibliotecas adicionam funcionalidades prontas ao Python, como integração
 
 # 2️⃣ Cole o código no Colab
 crie um novo notbook e cole o codigo do chat bot no colab
-link para o colab:https: //colab.research.google.com/
+link para o colab: https: //colab.research.google.com/
 
-# A API Key funciona como uma “senha de acesso” para utilizar serviços de Inteligência Artificial externos, como a Groq.
+# API key 
+A API Key funciona como uma “senha de acesso” para utilizar serviços de Inteligência Artificial externos, como a Groq.
 No seu chatbot, ela é necessária porque o modelo de IA não roda dentro do seu computador ou do Colab.
 Ele roda nos servidores da Groq.
-# 🔑 Como obter a API Key da Groq
+
+🔑 Como obter a API Key da Groq
+
 entre no saite da groq
 link para o saite da goq: https://console.groq.com/keys
 Crie uma conta na Groq
 Gere uma API Key
-Substituana linha 
+Substitua na linha 13 do codigo 
 
-api_key = 'SUA_API_KEY'
+13 api_key = 'SUA_API_KEY'
 
 
 
@@ -96,7 +99,7 @@ Este projeto demonstra:
 ✅ Estrutura inicial de arquitetura IA
 ✅ Organização de fluxo conversacional
 
-🛠️ Melhorias Futuras
+# 🛠️ Melhorias Futuras
  Interface Web
  Memória persistente
  Integração com PDF
@@ -119,7 +122,7 @@ Versionamento Git
 
 Este projeto agrega valor ao GitHub porque demonstra:
 
-🧠 Conhecimentos Técnicos
+# 🧠 Conhecimentos Técnicos
 IA Generativa
 APIs de IA
 Python moderno
@@ -143,19 +146,14 @@ refactor: melhora estrutura da função principal
 
 Padrão utilizado:
 
-Conventional Commits
+# Conventional Commits
 📦 requirements.txt
 langchain
 langchain-core
 langchain-groq
 groq
-🚫 .gitignore
-__pycache__/
-.env
-venv/
-*.pyc
 
-🤖 Uso de IA no Fluxo de Desenvolvimento
+# 🤖 Uso de IA no Fluxo de Desenvolvimento
 
 Este projeto faz parte do meu processo de aprendizado em:
 
@@ -171,7 +169,7 @@ Prototipação
 Aprendizado acelerado
 Estruturação técnica
 Otimização de código
-👨‍💻 Autor
+# 👨‍💻 Autor
 Yago Fernandes de Almeida
 
 Foco em:
@@ -181,7 +179,8 @@ Engenharia de Prompt
 Python
 Chatbots
 Automação
-⭐ Contribuição
+
+# ⭐ Contribuição
 
 Contribuições são bem-vindas.
 
@@ -189,7 +188,8 @@ Faça um Fork
 Crie uma Branch
 Commit suas alterações
 Abra um Pull Request
-📄 Licença
+
+# 📄 Licença
 
 Este projeto está sob a licença MIT.
 
