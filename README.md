@@ -61,8 +61,8 @@ Essas bibliotecas adicionam funcionalidades prontas ao Python, como integração
 
 !pip install langchain langchain-core langchain-groq groq
 
-# 2️⃣ Cole o código no Colab
-crie um novo notbook e cole o codigo do chat bot no colab
+# 2️⃣ No Colab
+crie um novo notbook e cole o codigo do chatbot no colab
 link para o colab: https: //colab.research.google.com/
 
 # API key 
