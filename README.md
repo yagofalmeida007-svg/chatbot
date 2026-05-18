@@ -39,7 +39,7 @@ Como Executar no Google Colab
 
 
 Execute esta célula:
-!pip install -q langchain langchain-groq langchain-core
+!pip install langchain langchain-groq langchain-core
 Adicione sua API Key
 import os
 
