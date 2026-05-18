@@ -29,6 +29,7 @@ Bot: Olá! Como posso ajudar você hoje?
 
 Usuário: quem criou você?
 Bot: Fui desenvolvido utilizando Python, LangChain e modelos de IA da Groq.
+
 🧠 Tecnologias Utilizadas
 Tecnologia	Finalidade
 Python	Linguagem principal
