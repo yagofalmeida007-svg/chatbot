@@ -17,11 +17,10 @@ O projeto foi criado com foco em aprendizado prático de:
 ✅ Fluxos Conversacionais  
 ✅ Versionamento com Git/GitHub  
 
----
+ 
+ # Demonstração
 
-# 🚀 Demonstração
-
-```bash
+bash
 Bem-vindo à Eve
 
 Usuário: oi
@@ -30,7 +29,7 @@ Bot: Olá! Como posso ajudar você hoje?
 Usuário: quem criou você?
 Bot: Fui desenvolvido utilizando Python, LangChain e modelos de IA da Groq.
 
-🧠 Tecnologias Utilizadas
+# 🧠 Tecnologias Utilizadas
 Tecnologia	Finalidade
 Python	Linguagem principal
 LangChain	Orquestração da IA
@@ -41,82 +40,46 @@ Google Colab	Ambiente de execução
 
 Git/GitHub	Versionamento
 
-📂 Estrutura do Projeto
+# 📂 Estrutura do Projeto
 eve-chatbot/
 │
-├── main.py
 ├── README.md
-├── requirements.txt
-├── .gitignore
-└── assets/
+├── chatbot.py
+└── requirements.txt
 
-⚙️ Executando no Google Colab
+# ⚙️ Executando no Google Colab
 
-1️⃣ Instale as dependências
+# 1️⃣ Instalando as Dependências —
+
+As dependências são bibliotecas externas que o seu projeto precisa para funcionar.
+No seu chatbot, as principais dependências são:
+
+langchain
+langchain-groq
+
+Essas bibliotecas adicionam funcionalidades prontas ao Python, como integração com IA e criação de prompts.
 
 !pip install langchain langchain-core langchain-groq groq
 
-2️⃣ Cole o código no Colab
+# 2️⃣ Cole o código no Colab
+crie um novo notbook e cole o codigo do chat bot no colab
+link para o colab:https: //colab.research.google.com/
 
-import os
-
-from langchain_core.prompts import ChatPromptTemplate
-from langchain_groq import ChatGroq
-
-# API Key
-api_key = 'SUA_API_KEY'
-
-os.environ['GROQ_API_KEY'] = api_key
-
-# Modelo
-chat = ChatGroq(
-    model='llama-3.3-70b-versatile'
-)
-
-# Função principal
-def resposta_bot(mensagens):
-
-    mensagens_modelo = [
-        ('system', 'Você é meu primeiro assistente Eve')
-    ]
-
-    mensagens_modelo += mensagens
-
-    template = ChatPromptTemplate.from_messages(
-        mensagens_modelo
-    )
-
-    chain = template | chat
-
-    return chain.invoke({}).content
-
-# Chat
-print('Bem-vindo à Eve')
-
-mensagens = []
-
-while True:
-
-    pergunta = input('Usuário: ')
-
-    if pergunta.lower() == 'x':
-        break
-
-    mensagens.append(('user', pergunta))
-
-    resposta = resposta_bot(mensagens)
-
-    mensagens.append(('assistant', resposta))
-
-    print(f'Bot: {resposta}')
-
-print('Muito obrigado por usar a Eve')
-🔑 Como obter a API Key da Groq
+# A API Key funciona como uma “senha de acesso” para utilizar serviços de Inteligência Artificial externos, como a Groq.
+No seu chatbot, ela é necessária porque o modelo de IA não roda dentro do seu computador ou do Colab.
+Ele roda nos servidores da Groq.
+# 🔑 Como obter a API Key da Groq
+entre no saite da groq
+link para o saite da goq: https://console.groq.com/keys
 Crie uma conta na Groq
 Gere uma API Key
-Substitua:
+Substituana linha 
+
 api_key = 'SUA_API_KEY'
-💡 Funcionalidades
+
+
+
+# 💡 Funcionalidades
 Chat interativo no terminal
 Histórico de mensagens
 Integração com IA Generativa
