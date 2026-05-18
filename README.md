@@ -36,8 +36,11 @@ Python	Linguagem principal
 LangChain	Orquestração da IA
 Groq API	Processamento do modelo
 Llama 3.3 70B	Modelo de linguagem
+
 Google Colab	Ambiente de execução
+
 Git/GitHub	Versionamento
+
 📂 Estrutura do Projeto
 eve-chatbot/
 │
@@ -46,10 +49,15 @@ eve-chatbot/
 ├── requirements.txt
 ├── .gitignore
 └── assets/
+
 ⚙️ Executando no Google Colab
+
 1️⃣ Instale as dependências
+
 !pip install langchain langchain-core langchain-groq groq
+
 2️⃣ Cole o código no Colab
+
 import os
 
 from langchain_core.prompts import ChatPromptTemplate
