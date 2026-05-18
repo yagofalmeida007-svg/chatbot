@@ -44,13 +44,6 @@ Google Colab	Ambiente de execução
 
 Git/GitHub	Versionamento
 
-# 📂 Estrutura do Projeto
-eve-chatbot/
-│
-├── README.md
-├── chatbot.py
-└── requirements.txt
-
 # ⚙️ Executando no Google Colab
 
 # 1️⃣ Instalando as Dependências —
